@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishnakant Kumar - Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">KK Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with 3D Animation -->
+    <section id="home" class="hero">
+        <canvas id="canvas3d"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="text-3d">Hi, I'm</span>
+                <span class="text-3d name">Krishnakant Kumar</span>
+                <span class="text-3d">Full Stack Developer & Co-Founder</span>
+            </h1>
+            <p class="hero-subtitle">Building modern websites and mobile apps that help businesses grow digitally</p>
+            <div class="hero-buttons">
+                <button class="btn-3d">View My Work</button>
+                <button class="btn-3d secondary">Get In Touch</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-card-3d">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="profile-image">
+                                <img src="https://res.cloudinary.com/decaobqtj/image/upload/v1767634586/WhatsApp_Image_2026-01-05_at_23.05.27_fvfwsu.jpg" alt="Krishnakant Kumar" class="profile-photo">
+                            </div>
+                            <h3>Full Stack Developer</h3>
+                            <p>Co-Founder at KA Web & App Developers</p>
+                        </div>
+                        <div class="card-back">
+                            <h3>Education & Experience</h3>
+                            <p><strong>Education:</strong> Computer Science & Engineering, Central University of Jharkhand</p>
+                            <p><strong>Experience:</strong> 2+ years in web and mobile app development</p>
+                            <p><strong>Company:</strong> KA Web & App Developers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I am <strong>Krishnakant Kumar</strong>, a Computer Science Engineering student and co-founder of <strong>KA Web & App Developers</strong>. I specialize in building modern websites and mobile applications that help businesses go online and grow digitally.</p>
+                    <p>With a strong focus on clean design, performance, and user experience, I deliver reliable and affordable digital solutions for startups, local businesses, and individuals. With over 2 years of experience, I've worked on various projects ranging from e-commerce platforms to mobile applications.</p>
+                    <p>My passion lies in creating seamless digital experiences that not only look great but also perform exceptionally well, helping businesses establish a strong online presence.</p>
+                    <div class="company-highlight">
+                        <h3>KA Web & App Developers</h3>
+                        <p>Visit our company website to learn more about our services and how we help businesses transform digitally.</p>
+                        <a href="https://www.webappdeveloper.online/" target="_blank" class="company-link">Visit Company Website →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card-3d">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>ThinkArena</h3>
+                            <p>Dynamic quiz application with customizable categories and timed questions</p>
+                            <a href="https://thinkarena.netlify.app/" target="_blank" class="project-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ThinkArena</h3>
+                        <p>React.js, React Router DOM, JavaScript, HTML5, CSS3</p>
+                        <p class="client-feedback">"GOOD THINKING GAME"</p>
+                    </div>
+                </div>
+                <div class="project-card-3d">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>Sudoku Master</h3>
+                            <p>Classic Sudoku game with intelligent puzzle generation and dark mode</p>
+                            <a href="https://krishnakant1794.github.io/Sudoku-Master/" target="_blank" class="project-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sudoku Master</h3>
+                        <p>HTML5, CSS3, Tailwind CSS, JavaScript (ES6+)</p>
+                        <p class="client-feedback">"NICE GAME"</p>
+                    </div>
+                </div>
+                <div class="project-card-3d">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>Chitrika</h3>
+                            <p>Full-stack e-commerce platform for handmade paintings with secure payments</p>
+                            <a href="https://chitrika.vercel.app/login" target="_blank" class="project-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Chitrika</h3>
+                        <p>React.js, Vite, Tailwind CSS, Node.js, Express.js, MongoDB, Firebase, Razorpay</p>
+                        <p class="client-feedback">"VERY NICE SHOPPING WEBSITE"</p>
+                    </div>
+                </div>
+                <div class="project-card-3d">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>AwaazNow</h3>
+                            <p>AI-powered news summarizer with personalized feed and key takeaways</p>
+                            <a href="https://awazz-now-krishnakant-kumars-projects.vercel.app/login" target="_blank" class="project-btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AwaazNow</h3>
+                        <p>React.js, React Router DOM, Node.js, Express.js, MongoDB, Google Gemini AI</p>
+                        <p class="client-feedback">"VERY GOOD NEWS AI WEBSITE"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-orb-3d">
+                    <div class="orb-content">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>React.js</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>Tailwind CSS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-orb-3d">
+                    <div class="orb-content">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB</li>
+                            <li>REST APIs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill-orb-3d">
+                    <div class="orb-content">
+                        <h3>Mobile</h3>
+                        <ul>
+                            <li>Flutter</li>
+                            <li>Dart</li>
+                            <li>Cross-platform</li>
+                            <li>Mobile UI/UX</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form-3d">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-3d submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item-3d">
+                        <h3>Email</h3>
+                        <p>krishnakant@example.com</p>
+                    </div>
+                    <div class="contact-item-3d">
+                        <h3>Company</h3>
+                        <p>KA Web & App Developers</p>
+                    </div>
+                    <div class="contact-item-3d">
+                        <h3>Location</h3>
+                        <p>Central University of Jharkhand</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Krishnakant Kumar - KA Web & App Developers. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
